@@ -1,0 +1,54 @@
+/** Mixin to create distinct classes for fab positions, e.g. ".md-fab-position-bottom-right". */
+[md-fab].md-fab-position-bottom-right {
+  top: auto;
+  right: 20px;
+  bottom: -25px;
+  left: auto;
+  position: absolute; }
+
+[md-fab].md-fab-position-bottom-left {
+  top: auto;
+  right: auto;
+  bottom: -25px;
+  left: 20px;
+  position: absolute; }
+
+[md-fab].md-fab-position-top-right {
+  top: 20px;
+  right: 20px;
+  bottom: auto;
+  left: auto;
+  position: absolute; }
+
+[md-fab].md-fab-position-top-left {
+  top: 20px;
+  right: auto;
+  bottom: auto;
+  left: 20px;
+  position: absolute; }
+
+[md-button].md-icon-button {
+  margin: 0 6px;
+  min-width: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 99%; }
+  [md-button].md-icon-button:not(.md-icon-button-mini) {
+    height: 48px;
+    line-height: 48px;
+    width: 48px; }
+  [md-button].md-icon-button.md-icon-button-mini {
+    height: 24px;
+    line-height: 24px;
+    width: 24px; }
+  [md-button].md-icon-button, [md-button].md-icon-button > .md-button-wrapper {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: flex; }

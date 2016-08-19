@@ -1,0 +1,8 @@
+.md-list-text p {
+  color: #9e9e9e; }
+
+md-list md-list-item [md-list-avatar],
+md-list a[md-list-item] [md-list-avatar],
+md-nav-list md-list-item [md-list-avatar],
+md-nav-list a[md-list-item] [md-list-avatar] {
+  min-width: 40px; }

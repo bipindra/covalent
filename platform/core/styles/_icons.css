@@ -1,0 +1,20 @@
+md-list-item md-icon,
+.md-list-item md-icon {
+  color: rgba(0, 0, 0, 0.54); }
+  md-list-item md-icon[md-list-avatar],
+  .md-list-item md-icon[md-list-avatar] {
+    background-color: whitesmoke;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: flex; }
+
+.md-icon-logo {
+  height: auto;
+  width: 100px; }

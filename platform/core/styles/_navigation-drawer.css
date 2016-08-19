@@ -1,0 +1,11 @@
+md-sidenav {
+  width: 320px; }
+  md-sidenav .md-list-item md-icon {
+    margin-right: 16px;
+    color: #737373;
+    fill: #737373; }
+  md-sidenav md-toolbar .md-toolbar-title {
+    padding-top: 10px; }
+  md-sidenav md-toolbar .md-toolbar-link {
+    color: #444;
+    text-decoration: none; }
